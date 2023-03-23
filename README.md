@@ -1,5 +1,23 @@
 # 🖥 CRYPTO-STATS 🖥
-Cloud computing class. David Alberto Aceves Sierra, Student of information technologies in science, UNAM, ENES Morelia.
+
+# Student
+David Alberto Aceves Sierra. davidaceves02@gmail.com
+Cloud computing class. 
+Student of information technologies in science, UNAM, ENES Morelia.
+
+![alt text](ENES_logo.png)
+
+# Licence
+GNU General Public License v3.0
+
+# Requeriments
+-python3
+
+## Python libraries
+-mplfinance
+-python-binance
+-time
+-pandas
 
 # 📋 Introduction 📋
 Cryptocurrencies are a type of alternative currency or digital currency. Cryptocurrencies generally use decentralized control rather than a central bank digital currency (CBDC).
