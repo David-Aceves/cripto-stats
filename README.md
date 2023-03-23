@@ -27,10 +27,14 @@ Create an algorithm that gets at least 1 cent per transaction.
 
 # 🖇 References 🖇
 Binance (2023, March 17) Binance. https://www.binance.com/
+
 colaboradores de Wikipedia. (2023, March 17). Binance. Wikipedia, la enciclopedia libre. https://es.wikipedia.org/wiki/Binance
 Binance (2023, March 17) Binance. https://www.binance.com/en/binance-api
+
 ¿Qué es una API? - Explicación de interfaz de programación de aplicaciones - AWS. (s. f.). Amazon Web Services, Inc. https://aws.amazon.com/es/what-is/api/
+
 Euroinnova Business School. (2022, 19 mayo). Cómo apuntarse a la bolsa de educación. https://www.euroinnova.mx/blog/que-es-la-criptomoneda-y-como-funciona
+
 Santander. (2022, 28 noviembre). ¿Qué son las criptomonedas y cómo funcionan? https://www.santander.com/es/stories/guia-para-saber-que-son-las-criptomonedas
 
 # CRIPTO-STATS - ESPAÑOL
@@ -62,8 +66,13 @@ https://github.com/David-Aceves/cripto-stats/edit/main/README.md
 
 # Referencias
 Binance (2023, March 17) Binance. https://www.binance.com/
+
 colaboradores de Wikipedia. (2023, March 17). Binance. Wikipedia, la enciclopedia libre. https://es.wikipedia.org/wiki/Binance
+
 Binance (2023, March 17) Binance. https://www.binance.com/en/binance-api
+
 ¿Qué es una API? - Explicación de interfaz de programación de aplicaciones - AWS. (s. f.). Amazon Web Services, Inc. https://aws.amazon.com/es/what-is/api/
+
 Euroinnova Business School. (2022, 19 mayo). Cómo apuntarse a la bolsa de educación. https://www.euroinnova.mx/blog/que-es-la-criptomoneda-y-como-funciona
+
 Santander. (2022, 28 noviembre). ¿Qué son las criptomonedas y cómo funcionan? https://www.santander.com/es/stories/guia-para-saber-que-son-las-criptomonedas
