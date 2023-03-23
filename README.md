@@ -56,8 +56,28 @@ Euroinnova Business School. (2022, 19 mayo). Cómo apuntarse a la bolsa de educa
 
 Santander. (2022, 28 noviembre). ¿Qué son las criptomonedas y cómo funcionan? https://www.santander.com/es/stories/guia-para-saber-que-son-las-criptomonedas
 
-# CRIPTO-STATS - ESPAÑOL
-David Alberto Aceves Sierra Estudiante de tecnologías para la información en ciencias, UNAM.
+
+# 🖥 CRYPTO-STATS 🖥
+
+# Estudiante
+David Alberto Aceves Sierra. davidaceves02@gmail.com
+
+Cloud computing class. 
+Estudiante de tecnologías para la información en ciencias, UNAM, ENES Morelia.
+
+![alt text](ENES_logo.png)
+
+# Licencia
+GNU General Public License v3.0
+
+# Requerimientos
+-python3
+
+## Librerias de python
+-mplfinance
+-python-binance
+-time
+-pandas
 
 # Introducción
 Las criptomonedas son un tipo de divisa alternativa o moneda digital. Las criptomonedas generalmente usan control descentralizado en lugar de una moneda digital de un banco central (CBDC).
