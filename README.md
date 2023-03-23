@@ -23,6 +23,8 @@ With the current technological techniques and the existing computational power, 
 Create software that allows recreating the candlestick chart, also known as OHLC in order to automate the statistical analysis.
 Create an algorithm that gets at least 1 cent per transaction.
 
+![alt text](stats_example.png)
+
 # 🖇 References 🖇
 Binance (2023, March 17) Binance. https://www.binance.com/
 colaboradores de Wikipedia. (2023, March 17). Binance. Wikipedia, la enciclopedia libre. https://es.wikipedia.org/wiki/Binance
@@ -55,6 +57,8 @@ Con las técnicas tecnológicas actuales y el poder computacional existente es p
 # Objetivo
 Crear un software que permita recrear el gráfico de velas, también conocido como OHLC para poder automatizar el análisis estádistico.
 Crear un algoritmo que obtenga a lo menos 1 centavo por transacción.
+
+https://github.com/David-Aceves/cripto-stats/edit/main/README.md
 
 # Referencias
 Binance (2023, March 17) Binance. https://www.binance.com/
