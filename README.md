@@ -101,7 +101,7 @@ Con las técnicas tecnológicas actuales y el poder computacional existente es p
 Crear un software que permita recrear el gráfico de velas, también conocido como OHLC para poder automatizar el análisis estádistico.
 Crear un algoritmo que obtenga a lo menos 1 centavo por transacción.
 
-![alt text](ENES_logo.png)
+![alt text](stats_example.png)
 
 # Referencias
 Binance (2023, March 17) Binance. https://www.binance.com/
