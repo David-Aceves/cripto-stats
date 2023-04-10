@@ -1,7 +1,8 @@
 # 🖥 CRIPTO ANALYSIS AND TRADING BOT 🖥
 
-# Student
+# Students
 David Alberto Aceves Sierra. davidaceves02@gmail.com
+Humberto Cortéz.
 
 Cloud computing class. 
 Student of information technologies in science, UNAM, ENES Morelia.
@@ -39,7 +40,8 @@ Binance offers an API to access your historical data and real-time transactions.
 With the current technological techniques and the existing computational power, it is possible to automate different actions within the cryptocurrency management platforms and the binance api, it is possible to create algorithms for the various trading strategies.
 
 # 🤞 Goal 🤞
-Create software that allows recreating the candlestick chart, also known as OHLC in order to automate the statistical analysis.
+Create software that allows recreating the candlestick chart, also known as OHLC in order to automate the statistical analysis from the Binance API and our database.
+
 Create an algorithm that gets at least 1 cent per transaction.
 
 ![alt text](stats_example.png)
@@ -59,8 +61,9 @@ Santander. (2022, 28 noviembre). ¿Qué son las criptomonedas y cómo funcionan?
 
 # 🖥 CRIPTO ANALYSIS AND TRADING BOT 🖥
 
-# Estudiante
+# Estudiantes
 David Alberto Aceves Sierra. davidaceves02@gmail.com
+Humberto Cortéz
 
 Cloud computing class. 
 Estudiante de tecnologías para la información en ciencias, UNAM, ENES Morelia.
