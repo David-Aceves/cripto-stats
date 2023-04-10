@@ -1,4 +1,4 @@
-# 🖥 CRYPTO-STATS 🖥
+# 🖥 CRIPTO ANALYSIS AND TRADING BOT 🖥
 
 # Student
 David Alberto Aceves Sierra. davidaceves02@gmail.com
@@ -57,7 +57,7 @@ Euroinnova Business School. (2022, 19 mayo). Cómo apuntarse a la bolsa de educa
 Santander. (2022, 28 noviembre). ¿Qué son las criptomonedas y cómo funcionan? https://www.santander.com/es/stories/guia-para-saber-que-son-las-criptomonedas
 
 
-# 🖥 CRYPTO-STATS 🖥
+# 🖥 CRIPTO ANALYSIS AND TRADING BOT 🖥
 
 # Estudiante
 David Alberto Aceves Sierra. davidaceves02@gmail.com
