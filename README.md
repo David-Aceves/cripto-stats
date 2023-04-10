@@ -2,6 +2,7 @@
 
 # Students
 David Alberto Aceves Sierra. davidaceves02@gmail.com
+
 Humberto Cortéz.
 
 Cloud computing class. 
@@ -63,6 +64,7 @@ Santander. (2022, 28 noviembre). ¿Qué son las criptomonedas y cómo funcionan?
 
 # Estudiantes
 David Alberto Aceves Sierra. davidaceves02@gmail.com
+
 Humberto Cortéz
 
 Cloud computing class. 
