@@ -21,6 +21,7 @@ GNU General Public License v3.0
 -python-binance
 -time
 -pandas
+-plotly
 
 # 📋 Introduction 📋
 Cryptocurrencies are a type of alternative currency or digital currency. Cryptocurrencies generally use decentralized control rather than a central bank digital currency (CBDC).
@@ -111,6 +112,10 @@ Crear un software que permita recrear el gráfico de velas, también conocido co
 Crear un algoritmo que obtenga a lo menos 1 centavo por transacción.
 
 ![alt text](stats_example.png)
+
+# Diagrama de flujo de datos
+
+![alt text](Diagram.png)
 
 # Referencias
 Binance (2023, March 17) Binance. https://www.binance.com/
