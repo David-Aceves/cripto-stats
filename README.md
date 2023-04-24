@@ -48,7 +48,7 @@ Create an algorithm that gets at least 1 cent per transaction.
 
 ![alt text](stats_example.png)
 
-# Data flow diagram
+# 📖 Data flow diagram 📖
 
 ![alt text](Diagram.png)
 
