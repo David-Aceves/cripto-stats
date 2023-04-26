@@ -51,7 +51,7 @@ Create an algorithm that gets at least 1 cent per transaction.
 # 📖 Data flow diagram 📖
 
 ![alt text](Diagram.png)
-![alt text](uml-cat.jpg)
+![alt text](uml-cat.png)
 
 # 🖇 References 🖇
 Binance (2023, March 17) Binance. https://www.binance.com/
