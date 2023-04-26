@@ -22,6 +22,8 @@ GNU General Public License v3.0
 -time
 -pandas
 -plotly
+-flask
+-plotly
 
 # 📋 Introduction 📋
 Cryptocurrencies are a type of alternative currency or digital currency. Cryptocurrencies generally use decentralized control rather than a central bank digital currency (CBDC).
@@ -90,6 +92,9 @@ GNU General Public License v3.0
 -python-binance
 -time
 -pandas
+-plotly
+-flask
+-plotly
 
 # Introducción
 Las criptomonedas son un tipo de divisa alternativa o moneda digital. Las criptomonedas generalmente usan control descentralizado en lugar de una moneda digital de un banco central (CBDC).
@@ -118,6 +123,8 @@ Crear un algoritmo que obtenga a lo menos 1 centavo por transacción.
 # Diagrama de flujo de datos
 
 ![alt text](Diagram.png)
+
+![alt text](UML-cat.png)
 
 # Referencias
 Binance (2023, March 17) Binance. https://www.binance.com/
