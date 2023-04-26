@@ -1,0 +1,54 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="row">
+    <div class="col-md-5">
+        
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        {% for message in messages %}
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                {{ message }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>    
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+
+    <div class="card card-body">
+        <form action="/plot_price_matic" method='POST'>
+            <button type="" class="btn btn-primary btn-block">PLOT PRICE</button>    
+        </form>
+        <form action="/add_register_matic" method='POST'>
+            <button type="submit" class="btn btn-secondary btn-block">Save MATIC price</button>    
+        </form>
+        </div>
+    </div>
+    <div class="col-md-7">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <td>Price</td>
+                    <td>Date</td>
+                    <td>Operations</td>
+                </tr>
+                <tbody>
+                    {% for registro in registros %}
+                    <tr>
+                        <td> {{registro.1 }} </td>
+                        <td> {{registro.2 }} </td>
+                        <td>
+                            <a href="/delete/{{registro.0}}" class = "btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </thead>
+        </table>
+    </div>
+</div>
+
+
+
+{% endblock %}

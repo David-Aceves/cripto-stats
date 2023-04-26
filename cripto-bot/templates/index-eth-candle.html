@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="row">
+    <div class="col">
+        
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        {% for message in messages %}
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                {{ message }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>    
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+
+        <div class="card card-body">
+        <form action="/show_candle_30_eth" method='POST'>
+            <button type="" class="btn btn-primary btn-block">SHOW 30 MNTS TODAY CANDLE</button>    
+        </form>
+        <form action="/show_candle_15_eth" method='POST'>
+            <button type="" class="btn btn-primary btn-block">SHOW 15 MNTS TODAY CANDLE</button>    
+        </form>
+        <form action="/show_candle_1_eth" method='POST'>
+            <button type="" class="btn btn-primary btn-block">SHOW 1 MNTS TODAY CANDLE</button>    
+        </form>
+        </div>
+    </div>
+{% endblock %}
