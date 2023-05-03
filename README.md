@@ -58,17 +58,19 @@ Create an algorithm that gets at least 1 cent per transaction.
 
 # 📖 On work examples 📖
 
+![alt text](index.jpg)
+
+![alt text](index2.jpg)
+
+![alt text](types.jpg)
+
 ![alt text](btc_plot.jpg)
 
 ![alt text](btc_plot_ohlc.jpg)
 
 ![alt text](btcdb.jpg)
 
-![alt text](index.jpg)
 
-![alt text](index2.jpg)
-
-![alt text](types.jpg)
 
 # 🖇 References 🖇
 Binance (2023, March 17) Binance. https://www.binance.com/
