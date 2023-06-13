@@ -83,6 +83,8 @@ Create an algorithm that gets at least 1 cent per transaction.
 
 ![alt text](UML-cat.png)
 
+![alt text](DIAGRAMA_MODULAR.jpeg)
+
 # 📖 On work examples 📖
 
 ![alt text](index.jpg)
@@ -96,8 +98,6 @@ Create an algorithm that gets at least 1 cent per transaction.
 ![alt text](btc_plot_ohlc.jpg)
 
 ![alt text](btcdb.jpg)
-
-![alt text](DIAGRAMA_MODULAR.jpeg)
 
 
 # 🖇 References 🖇
