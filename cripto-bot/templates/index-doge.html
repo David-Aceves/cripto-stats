@@ -2,33 +2,46 @@
 
 {% block body %}
 
-<H2>DOGE PRICE</H2>
+<h2>DOGE PRICE</h2>
 
-<div class="row">
-    <div class="col-md-5">
-        
-        {% with messages = get_flashed_messages() %}
-        {% if messages %}
-        {% for message in messages %}
-            <div class="alert alert-success alert-dismissible fade show" role="alert">
-                {{ message }}
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-              </div>    
-        {% endfor %}
-        {% endif %}
-        {% endwith %}
+<div class="card card-body">
+    Aqui se muestra la grafica y bd solamente del precio.
+    
+    <iframe src="../static/grafico_precio_doge.html" height="400px"></iframe>
+    <form action="/plot_price_doge" method='POST'>
+        <button type="" class="btn btn-primary btn-block">PLOT PRICE</button>    
+    </form>
+    <form action="/add_register_doge" method='POST'>
+        <button type="submit" class="btn btn-secondary btn-block">Save DOGE price</button>    
+    </form>
+</div>
+
+<h2>OHLC DOGE DATA</h2>
 
     <div class="card card-body">
-        <form action="/plot_price_doge" method='POST'>
-            <button type="" class="btn btn-primary btn-block">PLOT PRICE</button>    
-        </form>
-        <form action="/add_register_doge" method='POST'>
-            <button type="submit" class="btn btn-secondary btn-block">Save DOGE price</button>    
-        </form>
-        <img src="../static/doge.png" class="card-img-top" alt="...", style="width: 30%;" height="30%">
+        Aqui se muestra la grafica de velas.
+        <div class="card card-body">
+
+            <iframe src="../static/grafico_30_doge.html" height="400px"></iframe>
+
+            <form action="/show_candle_30_doge" method='POST'>
+                <button type="" class="btn btn-primary btn-block">SHOW 30 MNTS TODAY CANDLE</button>    
+            </form>
+
+            <iframe src="../static/grafico_15_doge.html" height="400px"></iframe>
+
+            <form action="/show_candle_15_doge" method='POST'>
+                <button type="" class="btn btn-primary btn-block">SHOW 15 MNTS TODAY CANDLE</button>    
+            </form>
+            
+            <iframe src="../static/grafico_1_doge.html"  height="400px"></iframe>
+            <form action="/show_candle_1_doge" method='POST'>
+                <button type="" class="btn btn-primary btn-block">SHOW 1 MNTS TODAY CANDLE</button>    
+            </form>
     </div>
-    </div>
-    <div class="col-md-7">
+</div>
+
+<h2>BD REGISTROS</h2>
         <table class="table table-striped table-bordered">
             <thead>
                 <tr>
@@ -42,7 +55,7 @@
                         <td> {{registro.1 }} </td>
                         <td> {{registro.2 }} </td>
                         <td>
-                            <a href="/delete/{{registro.0}}" class = "btn btn-danger">Delete</a>
+                            <a href="/delete/doge/{{registro.0}}" class = "btn btn-danger">Delete</a>
                         </td>
                     </tr>
                     {% endfor %}
@@ -51,7 +64,5 @@
         </table>
     </div>
 </div>
-
-
 
 {% endblock %}

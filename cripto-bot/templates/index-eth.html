@@ -2,33 +2,47 @@
 
 {% block body %}
 
-<H2>ETHEREUM PRICE</H2>
+<h2>ETHEREUM PRICE</h2>
 
-<div class="row">
-    <div class="col-md-5">
-        
-        {% with messages = get_flashed_messages() %}
-        {% if messages %}
-        {% for message in messages %}
-            <div class="alert alert-success alert-dismissible fade show" role="alert">
-                {{ message }}
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-              </div>    
-        {% endfor %}
-        {% endif %}
-        {% endwith %}
+<div class="card card-body">
+    Aqui se muestra la grafica y bd solamente del precio.
+    
+    <iframe src="../static/grafico_precio_eth.html" height="400px"></iframe>
+    
+    <form action="/plot_price_eth" method='POST'>
+        <button type="" class="btn btn-primary btn-block">PLOT PRICE</button>    
+    </form>
+    <form action="/add_register_eth" method='POST'>
+        <button type="submit" class="btn btn-secondary btn-block">Save ETHEREUM price</button>    
+    </form>
+</div>
+
+<h2>OHLC ETHEREUM DATA</h2>
 
     <div class="card card-body">
-        <form action="/plot_price_eth" method='POST'>
-            <button type="" class="btn btn-primary btn-block">PLOT PRICE</button>    
-        </form>
-        <form action="/add_register_eth" method='POST'>
-            <button type="submit" class="btn btn-secondary btn-block">Save ETH price</button>    
-        </form>
-        <img src="../static/ethereum-eth-logo.png" class="card-img-top" alt="...", style="width: 30%;" height="30%"> 
-        </div>
+        Aqui se muestra la grafica de velas.
+        <div class="card card-body">
+
+            <iframe src="../static/grafico_30_eth.html" height="400px"></iframe>
+
+            <form action="/show_candle_30_eth" method='POST'>
+                <button type="" class="btn btn-primary btn-block">SHOW 30 MNTS TODAY CANDLE</button>    
+            </form>
+
+            <iframe src="../static/grafico_15_eth.html" height="400px"></iframe>
+
+            <form action="/show_candle_15_eth" method='POST'>
+                <button type="" class="btn btn-primary btn-block">SHOW 15 MNTS TODAY CANDLE</button>    
+            </form>
+            
+            <iframe src="../static/grafico_1_eth.html"  height="400px"></iframe>
+            <form action="/show_candle_1_eth" method='POST'>
+                <button type="" class="btn btn-primary btn-block">SHOW 1 MNTS TODAY CANDLE</button>    
+            </form>
     </div>
-    <div class="col-md-7">
+</div>
+
+<h2>BD REGISTROS</h2>
         <table class="table table-striped table-bordered">
             <thead>
                 <tr>
