@@ -97,7 +97,7 @@ Create an algorithm that gets at least 1 cent per transaction.
 
 ![alt text](btcdb.jpg)
 
-![alt text](DIAGRAMA_MODULAR.jpg)
+![alt text](DIAGRAMA_MODULAR.jpeg)
 
 
 # 🖇 References 🖇
