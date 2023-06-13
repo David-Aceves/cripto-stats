@@ -3,8 +3,6 @@
 # Students
 David Alberto Aceves Sierra. davidaceves02@gmail.com
 
-Humberto Cortéz Vázquez. tejedordealas@gmail.com
-
 Cloud computing class. 
 Student of information technologies in science, UNAM, ENES Morelia.
 
@@ -89,8 +87,6 @@ Santander. (2022, 28 noviembre). ¿Qué son las criptomonedas y cómo funcionan?
 
 # Estudiantes
 David Alberto Aceves Sierra. davidaceves02@gmail.com
-
-Humberto Cortéz Vázquez. tejedordealas@gmail.com
 
 Cloud computing class. 
 Estudiante de tecnologías para la información en ciencias, UNAM, ENES Morelia.
